@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ноутбуки</title>
+
+    <link rel="stylesheet" href="/reset.css">
+
+    <style>
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .nav {
+            display: flex;
+            width: 320px;
+            justify-content: space-between;
+        }
+
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: rgb(213, 213, 213);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            /* height: 100vh; */
+        } 
+
+        .title {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        table, td {
+            border: 1px solid black;
+            margin-bottom: 50px;
+        }
+
+        table {
+            width: 85%;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .green {
+            background-color: rgb(186, 255, 186);
+        }
+
+        .yellow {
+            background-color: rgb(255, 255, 174);
+        }
+
+        .purple {
+            background-color: rgb(255, 162, 255);
+        }
+
+        .pink {
+            background-color: pink;
+        }
+
+        .orange {
+            background-color: rgb(255, 214, 139);
+        }
+
+        .blue {
+            background-color: rgb(143, 143, 255);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo">Ноутбуки та КПК
+        </h3>
+        <ul class="nav">
+            <li class="nav__item">
+                <a class="link" href="./laptops.html">Ноутбуки</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="./computers.html">Комп'ютери</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="../index.html">Головна</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <h1 class="title">Телефони 2020</h1>
+        <table bordercolor=black>
+            <tr>
+                <td class="green" align="center" valign="center" colspan=6>Телефони</>
+            </tr>
+            
+            <tr>
+                <td class="yellow" align="center" valign="center">№</td>
+                <td class="orange" align="center" valign="center" colspan="2">Назва</td>
+                <td class="pink" align="center" valign="center">Процесор</td>
+                <td class="purple" align="center" valign="center">ОЗУ</td>
+                <td class="blue" align="center" valign="center">Ціна</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">1</td>
+                <td align="center" valign="center">Sony Xperia 5 II</td>
+                <td align="center" valign="center"><img src="/images/p1.png" alt="p1"></td>
+                <td align="center" valign="center">Snapdragon 865</td>
+                <td align="center" valign="center"> 8GB</td>
+                <td align="center" valign="center">1300$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">2</td>
+                <td align="center" valign="center">iPhone 12 mini / iPhone 12</td>
+                <td align="center" valign="center"><img src="/images/p2.png" alt="p2"></td>
+                <td align="center" valign="center">A14 Bionic</td>
+                <td align="center" valign="center">4GB</td>
+                <td align="center" valign="center">829$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">3</td>
+                <td align="center" valign="center">Samsung Galaxy Note 20 Ultra </td>
+                <td align="center" valign="center"><img src="/images/p3.png" alt="p3"></td>
+                <td align="center" valign="center">Exynos 990 / Snapdragon 865 Plus</td>
+                <td align="center" valign="center">12GB</td>
+                <td align="center" valign="center">1119$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">4</td>
+                <td align="center" valign="center">OnePlus 8 Pro</td>
+                <td align="center" valign="center"><img src="/images/p4.png" alt="p4"></td>
+                <td align="center" valign="center">Snapdragon 865</td>
+                <td align="center" valign="center">8GB - 12GB</td>
+                <td align="center" valign="center">955$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">5</td>
+                <td align="center" valign="center">Google Pixel 5 </td>
+                <td align="center" valign="center"><img src="/images/p5.png" alt="p5"></td>
+                <td align="center" valign="center">Snapdragon 765G</td>
+                <td align="center" valign="center">8GB</td>
+                <td align="center" valign="center">699$</td>
+            </tr>
+    
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комп'ютери</title>
+
+    <link rel="stylesheet" href="/reset.css">
+
+    <style>
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .nav {
+            display: flex;
+            width: 320px;
+            justify-content: space-between;
+        }
+
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: rgb(213, 213, 213);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            /* height: 100vh; */
+        } 
+
+        .title {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        table, td {
+            border: 1px solid black;
+            margin-bottom: 50px;
+        }
+
+        table {
+            width: 85%;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .green {
+            background-color: rgb(186, 255, 186);
+        }
+
+        .yellow {
+            background-color: rgb(255, 255, 174);
+        }
+
+        .purple {
+            background-color: rgb(255, 162, 255);
+        }
+
+        .pink {
+            background-color: pink;
+        }
+
+        .orange {
+            background-color: rgb(255, 214, 139);
+        }
+
+        .blue {
+            background-color: rgb(143, 143, 255);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo">Ноутбуки та КПК</h3>
+        <ul class="nav">
+            <li class="nav__item">
+                <a class="link" href="./phones.html">Телефони</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="./laptops.html">Ноутбуки</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="../index.html">Головна</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <h1 class="title">Комп'ютери 2020</h1>
+        <table bordercolor=black>
+            <tr>
+                <td class="green" align="center" valign="center" colspan=6>Комп'ютери</>
+            </tr>
+            
+            <tr>
+                <td class="yellow" align="center" valign="center">№</td>
+                <td class="orange" align="center" valign="center" colspan="2">Назва</td>
+                <td class="pink" align="center" valign="center">Процесор</td>
+                <td class="purple" align="center" valign="center">ОЗУ</td>
+                <td class="blue" align="center" valign="center">Ціна</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">1</td>
+                <td align="center" valign="center">Dell XPS Tower</td>
+                <td align="center" valign="center"><img src="/images/c1.png" alt="c1"></td>
+                <td align="center" valign="center">9th-generation Intel Core i3 – i9</td>
+                <td align="center" valign="center"> 8GB – 64GB</td>
+                <td align="center" valign="center">1350$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">2</td>
+                <td align="center" valign="center">iMac (27-inch, 2020)</td>
+                <td align="center" valign="center"><img src="/images/c2.png" alt="c2"></td>
+                <td align="center" valign="center">10th-generation Intel Core i5 – i7</td>
+                <td align="center" valign="center">8GB – 128GB</td>
+                <td align="center" valign="center">2000$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">3</td>
+                <td align="center" valign="center">Alienware Aurora Ryzen Edition R10</td>
+                <td align="center" valign="center"><img src="/images/c3.png" alt="c3"></td>
+                <td align="center" valign="center">AMD Ryzen 5 3500 – 9 3950X</td>
+                <td align="center" valign="center">8GB – 64GB</td>
+                <td align="center" valign="center">1400$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">4</td>
+                <td align="center" valign="center">Dell G5 Gaming Desktop</td>
+                <td align="center" valign="center"><img src="/images/c4.png" alt="c4"></td>
+                <td align="center" valign="center">9th Gen Intel Core i3-9100 – i9 9900K</td>
+                <td align="center" valign="center">8GB – 64GB</td>
+                <td align="center" valign="center">630$</td>
+            </tr>
+    
+            <tr>
+                <td class="yellow" align="center" valign="center">5</td>
+                <td align="center" valign="center">Intel Ghost Canyon NUC</td>
+                <td align="center" valign="center"><img src="/images/c5.png" alt="c5"></td>
+                <td align="center" valign="center">Intel Core i7-8565U</td>
+                <td align="center" valign="center">8GB – 64B</td>
+                <td align="center" valign="center">799$</td>
+            </tr>
+    
+        </table>
+    </main>
+</body>
+</html>

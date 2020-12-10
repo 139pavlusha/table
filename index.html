@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комп'ютери та КПК</title>
+
+    <link rel="stylesheet" href="/reset.css">
+
+    <style>
+
+        body {
+            background-color: rgb(213, 213, 213);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .title {
+            text-align: center;
+            /* margin-top: 50px; */
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .name {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .img-box {
+            width: 750px;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        img {
+            height: 150px;
+            transition: .3s;
+        }
+
+        /* .--mb {
+            margin-top: 30px;
+        } */
+
+        img:hover {
+            transform: scale(1.03);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="title">Комп'ютери та КПК</h1>
+    <h3 class="name">Автор: Гречко Павло І-41</h3>
+    <div class="img-box">
+        <a class="link" href="/pages/laptops.html"><img src="/images/laptop.png" alt="Laptop"></a>
+        <a class="link" href="/pages/computers.html"><img src="/images/computers.png" alt="Computer"></a>
+        <a class="link --mb" href="/pages/phones.html"><img src="/images/phone.png" alt="Phone"></a>
+    </div>
+</body>
+</html>
